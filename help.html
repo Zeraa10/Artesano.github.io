@@ -1,0 +1,119 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>contactanos</title>
+    <link rel="stylesheet" href="assets/css/help.css">
+</head>
+<body>
+    <header id="Header">
+        <img class="logo" src="assets/img/logo_artesano.png" ></img>
+        <nav class="navegacion">
+            <a href="index.html">Inicio</a>
+            <a href="catalog.html">Catálogo</a>
+            <a href="help.html">Contactanos</a>
+            <a href="login.html">Iniciar Sesión</a>
+        </nav>
+    </header>
+    
+    <Main>
+        <section class="formulario" id="contactanos">
+            
+            <form>
+                
+                <h4>Contactanos</h4>
+
+                <div class="input-group">
+
+                    <div class="fila1">
+                        <label for="name">Nombre</label>
+                        <input type="text" name="name" id="name" placeholder="Nombre" required>
+
+                        <label for="lastname">Apellido</label>
+                        <input type="text" name="lastname" id="lastname" placeholder="Apellido" required>
+                    </div>
+                    
+                    <div class="fila2">
+                        <label for="phone">Telefono</label>
+                        <input type="tel" name="phone" id="phone" placeholder="Telefono">
+
+                        <label for="email">Email</label>
+                        <input type="email" name="email" id="email" placeholder="Email" required 
+                                pattern="^[^\s@ñÑ]+@[^\s@]+\.[^\s@]+$" title="El correo no debe contener 'ñ' o caracteres especiales.">
+                    </div>
+                    <br>
+                    <div class="mensaje">
+                        <label for="message">Mensaje</label>
+                        <textarea name="message" id="message" cols="30" rows="5" placeholder="Mensaje"></textarea>
+                    </div>
+                    <br>
+                    <div class="form-txt">
+                        <a href="#">Politica de privacidad</a>
+                        <a href="#">Terminos y condiciones</a>
+                    </div>
+
+                    <input class="btn" type="submit" value="Enviar">
+                    <input type="hidden" name="_next" value="http://127.0.0.1:5500/index.html">
+                    <input type="hidden" name="_captcha" value="false">
+                </div>
+                
+            </form>
+        </section>
+    </Main>
+    <footer class="footer">
+        <ul class="social-icon">
+            <li class="icon-elem">
+                <a href="" class="icon">
+                    <ion-icon name="logo-youtube"></ion-icon>
+                </a>
+            </li>
+            <li class="icon-elem">
+                <a href="" class="icon">
+                    <ion-icon name="logo-instagram"></ion-icon>
+                </a>
+            </li>
+            <li class="icon-elem">
+                <a href="" class="icon">
+                    <ion-icon name="logo-whatsapp"></ion-icon>
+                </a>
+            </li>
+            <li class="icon-elem">
+                <a href="" class="icon">
+                    <ion-icon name="logo-facebook"></ion-icon>
+                </a>
+            </li>
+            <li class="icon-elem">
+                <a href="" class="icon">
+                    <ion-icon name="mail-outline"></ion-icon>
+                </a>
+            </li>
+        </ul>
+        <ul class="menu-footer">
+            <li class="menu-elem">
+                <a href="#inicio" class="menu-icon-footer"> Inicio </a>
+            </li>
+            <li class="menu-elem">
+                <a href="login.html" class="menu-icon-footer"> Iniciar Sesion </a>
+            </li>
+            <li class="menu-elem">
+                <a href="catalog.html" class="menu-icon-footer"> Catalogo </a>
+            </li>
+            <li class="menu-elem">
+                <a href="help.html" class="menu-icon-footer"> Contactanos </a>
+            </li>
+        </ul>
+        <p class="text-footer">2024 | Todos los derechos reservados</p>
+    </footer>
+    <script src="assets/js/scripts.js"></script>
+    <script 
+    type="module" 
+    src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.esm.js"
+    ></script>
+
+    <script 
+    nomodule 
+    src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.js"
+    ></script>
+</body>
+</html>

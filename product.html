@@ -1,0 +1,146 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Detalles del Producto</title>
+  <link rel="stylesheet" href="assets/css/product.css">
+  <script src="https://cdn.jsdelivr.net/npm/@splidejs/splide@4.1.4/dist/js/splide.min.js" defer></script>
+  <link href="https://cdn.jsdelivr.net/npm/@splidejs/splide@4.1.4/dist/css/splide.min.css" rel="stylesheet">
+</head>
+<body>
+    <header id="Header">
+      <img class="logo" src="assets/img/logo_artesano.png" ></img>
+      <nav class="navegacion">
+        <a href="index.html">Inicio</a>
+        <a href="catalog.html">Catálogo</a>
+        <a href="help.html">Contactanos</a>
+        <a href="login.html">Iniciar Sesión</a>
+        </nav>
+    </header>
+    <main>
+        <div class="producto-container">
+          <div class="carousel-container">
+            <div id="main-slider" class="splide">
+              <div class="splide__track">
+                <ul class="splide__list">
+                    <li class="splide__slide"><img src="assets/img/product8.jpg" alt="Imagen 1"></li>
+                    <li class="splide__slide"><img src="assets/img/product4.jpg" alt="Imagen 2"></li>
+                    <li class="splide__slide"><img src="assets/img/product9.jpg" alt="Imagen 3"></li>
+                    <li class="splide__slide"><img src="assets/img/product6.jpg" alt="Imagen 4"></li>
+                    <li class="splide__slide"><img src="assets/img/product7.jpg" alt="Imagen 5"></li>
+                    <li class="splide__slide"><img src="assets/img/product2.jpg" alt="Imagen 6"></li>
+                    <li class="splide__slide"><img src="assets/img/mascara1.jpg" alt="Imagen 7"></li>
+                    <li class="splide__slide"><img src="assets/img/mascara2.jpg" alt="Imagen 8"></li>
+                    <li class="splide__slide"><img src="assets/img/product3.jpeg" alt="Imagen 9"></li>
+                    <li class="splide__slide"><img src="assets/img/product5.webp" alt="Imagen 10"></li>
+                </ul>
+              </div>
+            </div>
+      
+            <div id="thumbnail-slider" class="splide">
+              <div class="splide__track">
+                <ul class="splide__list">
+                  <li class="splide__slide"><img src="assets/img/product8.jpg" alt="Imagen 1"></li>
+                  <li class="splide__slide"><img src="assets/img/product4.jpg" alt="Imagen 2"></li>
+                  <li class="splide__slide"><img src="assets/img/product9.jpg" alt="Imagen 3"></li>
+                  <li class="splide__slide"><img src="assets/img/product6.jpg" alt="Imagen 4"></li>
+                  <li class="splide__slide"><img src="assets/img/product7.jpg" alt="Imagen 5"></li>
+                  <li class="splide__slide"><img src="assets/img/product2.jpg" alt="Imagen 6"></li>
+                  <li class="splide__slide"><img src="assets/img/mascara1.jpg" alt="Imagen 7"></li>
+                  <li class="splide__slide"><img src="assets/img/mascara2.jpg" alt="Imagen 8"></li>
+                  <li class="splide__slide"><img src="assets/img/product3.jpeg" alt="Imagen 9"></li>
+                  <li class="splide__slide"><img src="assets/img/product5.webp" alt="Imagen 10"></li>
+              </ul>
+                </ul>
+              </div>
+            </div>
+          </div>
+      
+          <!-- Detalles del producto -->
+          <section class="detalles-productos">
+            <div class="info-producto">
+              <h2>Nombre del producto</h2>
+              <p class="descripcion">Breve descripción, color, tamaño</p>
+      
+              <p class="price">
+                <span class="current-price">$95</span>
+                <br>
+                <span class="original-price">$119</span>
+                <br>
+                <span class="descuento">-20%</span>
+              </p>
+      
+              <p class="tax-info">$75.50 sin impuestos</p>
+      
+              <div class="color-selection">
+                <p>Color:</p>
+                <p class="selected-color">Negro</p>
+                <a href="#" class="change-color">Cambiar</a>
+              </div>
+      
+              <a class="anadir-al-carrito" href="cart.html">Añadir al carrito</a>
+            </div>
+          </section>
+        </div>
+      </main>
+      
+
+      <footer class="footer">
+        <ul class="social-icon">
+            <li class="icon-elem">
+                <a href="" class="icon">
+                    <ion-icon name="logo-youtube"></ion-icon>
+                </a>
+            </li>
+            <li class="icon-elem">
+                <a href="" class="icon">
+                    <ion-icon name="logo-instagram"></ion-icon>
+                </a>
+            </li>
+            <li class="icon-elem">
+                <a href="" class="icon">
+                    <ion-icon name="logo-whatsapp"></ion-icon>
+                </a>
+            </li>
+            <li class="icon-elem">
+                <a href="" class="icon">
+                    <ion-icon name="logo-facebook"></ion-icon>
+                </a>
+            </li>
+            <li class="icon-elem">
+                <a href="" class="icon">
+                    <ion-icon name="mail-outline"></ion-icon>
+                </a>
+            </li>
+        </ul>
+        <ul class="menu-footer">
+            <li class="menu-elem">
+                <a href="#inicio" class="menu-icon-footer"> Inicio </a>
+            </li>
+            <li class="menu-elem">
+                <a href="login.html" class="menu-icon-footer"> Iniciar Sesion </a>
+            </li>
+            <li class="menu-elem">
+                <a href="catalog.html" class="menu-icon-footer"> Catalogo </a>
+            </li>
+            <li class="menu-elem">
+                <a href="help.html" class="menu-icon-footer"> Contactanos </a>
+            </li>
+        </ul>
+        <p class="text-footer">2024 | Todos los derechos reservados</p>
+    </footer>
+  
+    <script src="assets/js/product.js"></script>
+    <script 
+        type="module" 
+        src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.esm.js"
+    ></script>
+
+    <script 
+        nomodule 
+        src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.js"
+    ></script>
+
+</body>
+</html>
